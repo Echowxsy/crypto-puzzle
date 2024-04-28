@@ -13,7 +13,8 @@
     "compile:watch": "tsex compile --watch",
     "test": "tsex test",
     "test:watch": "tsex test --watch",
-    "prepublishOnly": "tsex prepare"
+    "prepublishOnly": "tsex prepare",
+    "pack": "webpack --config webpack.config.cjs"
   },
   "keywords": [
     "crypto",
@@ -25,6 +26,7 @@
   ],
   "dependencies": {
     "bigint-encoding": "^1.0.0",
+    "buffer": "^6.0.3",
     "crypto-pbkdf2-hmac": "^2.2.1",
     "crypto-random-in-range": "^2.0.0",
     "crypto-random-prime": "^1.0.0",
@@ -38,8 +40,12 @@
     "uint8-encoding": "^2.0.0"
   },
   "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
     "fava": "^0.2.1",
+    "ts-loader": "^9.5.1",
     "tsex": "^3.0.1",
-    "typescript": "^5.1.6"
+    "typescript": "^5.1.6",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
   }
 }
