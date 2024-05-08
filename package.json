@@ -42,6 +42,7 @@
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
     "fava": "^0.2.1",
+    "terser-webpack-plugin": "^5.3.10",
     "ts-loader": "^9.5.1",
     "tsex": "^3.0.1",
     "typescript": "^5.4.5",
