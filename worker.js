@@ -1,4 +1,4 @@
-import Puzzle from "./dist/index.js";
+import Puzzle from "./src/index.ts";
 
 onmessage = async function(e) {
   console.log('Worker: Message received from main script');
